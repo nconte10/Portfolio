@@ -1,0 +1,72 @@
+/*inicio hoja estilos*/
+* {
+    box-sizing: border-box;
+  }
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    background-color: #264653;
+}
+
+#containerNav {
+    display: flex;
+    background-color:#2a9d8f;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+    
+}
+
+.navBar a {
+    color: aliceblue;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+ /*main*/
+
+.indexTitle {
+    background-color: #e9c46a;
+    margin: 0px;
+    padding: 10px;
+    text-align: center  ;
+}
+
+
+
+.indexDescription {
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+    justify-content: space-around;
+    background-color: #f4a261;
+    margin: 0px;
+    padding: 10px;
+    align-content: baseline;
+}
+
+.indexImg img{
+    padding-top: 13%;
+    padding-left: 20%;
+    padding-bottom: 15%;
+    border-radius: 50%;
+    max-width: 70%;
+    height: auto;
+}
+
+
+
+
+
+/*footer*/
+
+.footer {
+    background-color: #e76f51;
+    margin: 0px;
+    padding: 10px;
+    text-align: center;
+}
+
